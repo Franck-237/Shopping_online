@@ -60,7 +60,7 @@ const Prods = () => {
                 </p>
             </div>
             {/*Body section */}
-            <div>
+            <div className="">
                 <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
                     {/*card section */}
                     {
@@ -92,10 +92,11 @@ const Prods = () => {
                 </div>
             </div>
             <div
+            onClick={() => alert("Calm down just be patient! We don't push all our products")}
             data-aos="fade-up"
             className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-center text-white text-xl font-semibold py-2 px-4 rounded-md mt-10 max-w-[200px] mx-auto cursor-pointer"
             >
-                <a href="#"
+                <a href=""
                 className=""
                 >
                     View all Products</a>

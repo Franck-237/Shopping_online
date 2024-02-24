@@ -48,7 +48,7 @@ const Hero = ({handlerOrderPopup}) => {
         <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9">
 
         </div>
-        <div className="container pb-8 sm:pb-0">
+        <div className="container px-2 pb-8 sm:pb-0">
             <Slider {...settings}>
                 {
                     ImageList.map((data) => (

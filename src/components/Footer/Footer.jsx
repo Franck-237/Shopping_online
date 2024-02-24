@@ -93,7 +93,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className="px-4">
                     <div className="flex items-center gap-3 mt-6">
                         <a href="#">
                             <FaInstagram className="text-3xl"/>

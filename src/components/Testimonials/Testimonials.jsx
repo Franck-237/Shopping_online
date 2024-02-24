@@ -33,7 +33,7 @@ const TestimonialData = [
 const Testimonials = () => {
 
     var settings = { 
-        dots: true, arrows: false, infinite: true, speed: 500, slidesToScroll: 1, autoplay: true, autoplaySpeed: 2000, cssEase: "linear",
+        dots: true, arrows: false, infinite: true, speed: 800, slidesToScroll: 1, autoplay: true, autoplaySpeed: 2000, cssEase: "linear",
         pauseOnHover: true, pauseOnFocus: true, responsive: [
             { 
                 breakpoint: 10000,
@@ -64,7 +64,7 @@ const Testimonials = () => {
   return (
     <div className="py-10 mb-10">
         <div className="container">
-           <div className="text-center mb-10 max-w-[600px] mx-auto">
+           <div className="text-center mb-10 max-w-[600px] mx-auto px-2">
                 <p 
                 data-aos="fade-up"
                 className="text-sm text-primary">What our customer are saying</p>

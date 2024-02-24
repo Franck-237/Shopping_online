@@ -17,7 +17,7 @@ const Banner = () => {
                     />
                 </div>
                 <div
-                className="flex flex-col justify-center gap-6 sm:pt-0">
+                className="flex px-2 flex-col justify-center gap-6 sm:pt-0">
                     <h1
                     data-aos="fade-up"
                      className="text-3xl sm:text-4xl font-bold"

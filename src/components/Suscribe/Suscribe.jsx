@@ -17,7 +17,7 @@ const Suscribe = () => {
     className="mb-20 bg-gray-100 dark:bg-gray-800 text-white"
     style={BannerImg}
     >
-      <div className="container backdrop-blur-sm py-10">
+      <div className="container px-2 backdrop-blur-sm py-10">
         <div className="space-y-6 max-w-xl mx-auto">
             <h1
             data-aos="fade-up"
@@ -25,7 +25,7 @@ const Suscribe = () => {
             >Get Notified About New Products</h1>
             <input 
             data-aos="fade-up"
-            className="w-full p-3 border-solid border-1 rounded-xl"
+            className="w-full p-3 border-solid border-1 rounded-xl focus:outline-none focus:border focus:border-1 focus:border-yellow-800 text-gray-600 txt-xl font-serif"
             placeholder='Enter your email'
             type="text" />
         </div>

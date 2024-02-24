@@ -25,7 +25,7 @@ const ProductsData = [
 const TopProducts = ({handlerOrderPopup}) => {
   return (
     <div>
-        <div className="container">
+        <div className="container px-2">
             {/*header section*/}
             <div className="text-left mb-24 max-w-[600px]">
                 <p 
