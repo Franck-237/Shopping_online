@@ -37,7 +37,7 @@ const TopProducts = ({handlerOrderPopup}) => {
                 <p 
                 data-aos="fade-up"
                 className="text-xs text-gary-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iste numquam aspernatur iure vero non delectus perspiciatis eos maxime repellendus, pariatur doloribus debitis aliquid voluptatum excepturi dolores quibusdam, itaque saepe.
+                    Lorem ipsum dolor amet consectetur adipisicing elit. Magni iste numquam aspernatur iure vero non delectus perspiciatis eos maxime repellendus, pariatur doloribus debitis aliquid voluptatum excepturi dolores quibusdam, itaque saepe.
                 </p>
             </div>
             {/*body section*/}
